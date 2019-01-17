@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>uk.co.caci.iig</groupId>
 	<artifactId>keycloak-hibp-policy</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 
 	<properties>
 		<keycloak.version>4.4.0.Final</keycloak.version>
