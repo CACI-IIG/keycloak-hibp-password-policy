@@ -1,0 +1,14 @@
+language: java
+jdk: openjdk8
+
+cache:
+  directories:
+  - $HOME/.m2
+
+deploy:
+  provider: releases
+  api_key: "$GITHUB_TOKEN"
+  file: "target/keycloak-hibp-policy-${TRAVIS_TAG}.jar"
+  skip_cleanup: true
+  on:
+    tags: true
